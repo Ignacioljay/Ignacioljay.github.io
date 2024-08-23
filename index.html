@@ -8,11 +8,7 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=News Cycle:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Times New Roman:ital,wght@0,400;0,700;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Times New Roman:wght@400;700&display=swap"
     />
     <link
       rel="stylesheet"
@@ -20,95 +16,49 @@
     />
   </head>
   <body>
-    <div class="desktop-2">
-      <img class="b4-icon" alt="" src="./public/b4@2x.png" />
-
-      <section class="content">
-        <div class="navigation">
-          <div class="home-wrapper">
-            <a class="home" id="hOMEText">HOME</a>
-          </div>
-          <div class="shrine-parent">
-            <img
-              class="shrine-icon"
-              loading="lazy"
-              alt=""
-              src="./public/shrine@2x.png"
-            />
-
-            <div class="skills-expert-in-utilising-container">
-              <p class="skills">
-                <span>
-                  <b>SKILLS:</b>
-                </span>
-              </p>
-              <p class="blank-line">
-                <span>
-                  <span>
-                    <span>&nbsp;</span>
-                  </span>
-                </span>
-              </p>
-              <p class="expert-in-utilising-text-edito">
-                <span>
-                  <span
-                    >Expert in utilising text editors to prepare documents,
-                    competent in taking and editing photos for content creation
-                    and visual storytelling, knowledgeable about manufacturing
-                    processes, and at ease with a variety of blogging
-                    platforms.</span
-                  >
-                </span>
-              </p>
-            </div>
+    <div class="desktop-1">
+      <div class="home-wrapper">
+        <a class="home">HOME</a>
+      </div>
+      <div class="frame-parent">
+        <div class="mask-group-wrapper">
+          <img
+            class="mask-group-icon"
+            loading="lazy"
+            alt=""
+            src="https://res.cloudinary.com/dyyxbtd54/image/upload/v1724764336/mask-group_2x_vgrvn3.png"
+          />
+        </div>
+        <b class="good-day">Good day!</b>
+        <b class="im-l-jay-shrine">I'm L-jay Shrine Ignacio</b>
+        <b class="video-editor">Video-Editor</b>
+        <div class="mask-group-wrapper">
+          <div class="frame-group">
+            <button class="rectangle-parent">
+              <div class="frame-child"></div>
+              <div class="hire-me" id="hIREMEText">HIRE ME</div>
+            </button>
+            <button class="rectangle-group">
+              <div class="frame-child"></div>
+              <div class="more" id="mOREText">MORE</div>
+            </button>
           </div>
         </div>
-      </section>
-      <section class="frame-parent">
-        <div class="trustworthy-statement-wrapper">
-          <div class="trustworthy-statement">
-            <b class="i-am-a-container">
-              <p class="skills">
-                I am a trustworthy, responsible individual with self-discipline,
-                open-mindedness, and commitment to learning.
-              </p>
-              <p class="skills">
-                I am eager to adapt to challenges and improve my skills,
-                ensuring effective team contribution.
-              </p>
-            </b>
-            <div class="arrow-right-wrapper">
-              <img
-                class="arrow-right-icon"
-                loading="lazy"
-                alt=""
-                src="./public/arrow-right.svg"
-                id="arrowRight"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="footer">
-          <div class="text">
-            <p class="skills">&nbsp;</p>
-          </div>
-        </div>
-        <img class="j-icon" loading="lazy" alt="" src="./public/j@2x.png" />
-      </section>
+      </div>
     </div>
 
     <script>
-      var hOMEText = document.getElementById("hOMEText");
-      if (hOMEText) {
-        hOMEText.addEventListener("click", function (e) {
-          window.location.href = "./desktop.html";
+      var hIREMEText = document.getElementById("hIREMEText");
+      if (hIREMEText) {
+        hIREMEText.addEventListener("click", function (e) {
+          window.location.href = "./desktop2.html";
         });
       }
       
-      var arrowRight = document.getElementById("arrowRight");
-      if (arrowRight) {
-        arrowRight.addEventListener("click", function (e) {
-          window.location.href = "./desktop2.html";
+      var mOREText = document.getElementById("mOREText");
+      if (mOREText) {
+        mOREText.addEventListener("click", function (e) {
+          window.location.href = "./desktop1.html";
         });
       }
       </script>
